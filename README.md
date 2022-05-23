@@ -17,7 +17,7 @@
 
 2. We us the commant `npm create-react-app app-ui` to install the react application
 
-![1](https://user-images.githubusercontent.com/58190465/169775860-0752731e-9101-4e31-9123-0ba1f820c0aa.png)
+    ![1](https://user-images.githubusercontent.com/58190465/169775860-0752731e-9101-4e31-9123-0ba1f820c0aa.png)
 
 
 3. The next step involves installing and loading the node js mock server using `npm install node-mock-server --save-dev`
@@ -28,7 +28,7 @@
 
 6. `npm install @projectstorm/react-diagrams` install the react diagrams
 
-![3](https://user-images.githubusercontent.com/58190465/169775972-86e88da1-28fd-414a-ae50-e4e04689b940.png)
+    ![3](https://user-images.githubusercontent.com/58190465/169775972-86e88da1-28fd-414a-ae50-e4e04689b940.png)
 
 7. We publish the changes through the vs code by using git and publishing them to github repo.
 
