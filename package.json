@@ -1,0 +1,19 @@
+{
+  "name": "finalone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Viku-51/app-ui.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Viku-51/app-ui/issues"
+  },
+  "homepage": "https://github.com/Viku-51/app-ui#readme"
+}
