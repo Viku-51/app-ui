@@ -153,11 +153,8 @@ export default () => {
 			<CanvasWidget engine={engine} />
 		</DemoCanvasWidget>
 	);
-};
 
-const YourDiagram = () => (
-    <YourDiagram initState={{
-        nodes: [
+       nodes: [
           {
             id: "node_1",
             position: [300, 300],
@@ -181,5 +178,7 @@ const YourDiagram = () => (
             }
           },
         ]
-      }} />
+       />
 );
+};
+

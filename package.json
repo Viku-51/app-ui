@@ -14,9 +14,3 @@
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Viku-51/app-ui/issues"
-  },
-  "homepage": "https://github.com/Viku-51/app-ui#readme",
-  "dependencies": {
-    "@projectstorm/react-diagrams": "^6.7.0"
-  }
-}
