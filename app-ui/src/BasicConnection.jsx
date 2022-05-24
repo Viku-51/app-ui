@@ -20,7 +20,7 @@ node1.setPosition(100, 100);
 let port1 = node1.addOutPort('Out');
 
 // node 2
-const node2 = new DefaultNodeModel({
+const node2 = new DefaultNodeModel({//Default node model api
     name: 'Node 1',
     color: 'rgb(0,192,255)',
 });
@@ -34,6 +34,17 @@ link.addLabel('Hello World!');
 const model = new DiagramModel();
 model.addAll(node1, node2, link);
 engine.setModel(model);
+
+linkEvents(e) {
+    if (e.isCreated) {
+      e.link.addListener({
+        targetPortChanged: this.diagramChanged,
+        sourcePortChanged: this.diagramChanged,
+        selectionChanged: this.selectionChanged,
+        entityRemoved: this.itemDeleted,
+      })
+    }
+  }
 
 <CanvasWidget engine={engine} /> //render with react
 
